@@ -67,13 +67,11 @@
 		C82BF2C92C99B9A300A108F8 /* HATestTask */ = {
 			isa = PBXGroup;
 			children = (
-				C82BF2CA2C99B9A300A108F8 /* HATestTaskApp.swift */,
+				C82BF2F12C9C550100A108F8 /* Core */,
 				C82BF2E52C9AF2B400A108F8 /* HomeTab */,
 				C82BF2E22C9AF02900A108F8 /* Extension */,
 				C82BF2E62C9AF2CA00A108F8 /* EditPhoto */,
 				C82BF2EA2C9B071F00A108F8 /* Settings */,
-				C82BF2CE2C99B9A400A108F8 /* Assets.xcassets */,
-				C82BF2D02C99B9A400A108F8 /* Preview Content */,
 			);
 			path = HATestTask;
 			sourceTree = "<group>";
@@ -129,6 +127,16 @@
 				C82BF2EB2C9B1C6300A108F8 /* SettingsItemView.swift */,
 			);
 			path = Settings;
+			sourceTree = "<group>";
+		};
+		C82BF2F12C9C550100A108F8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C82BF2CA2C99B9A300A108F8 /* HATestTaskApp.swift */,
+				C82BF2CE2C99B9A400A108F8 /* Assets.xcassets */,
+				C82BF2D02C99B9A400A108F8 /* Preview Content */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,7 +351,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HATestTask/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"HATestTask/Core/Preview Content\"";
 				DEVELOPMENT_TEAM = ZNKN5NDVAY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -378,7 +386,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HATestTask/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"HATestTask/Core/Preview Content\"";
 				DEVELOPMENT_TEAM = ZNKN5NDVAY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
