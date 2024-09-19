@@ -10,7 +10,7 @@ import SwiftUI
 struct SettingsView: View {
     // MARK: - ViewModel
     
-    @StateObject var viewModel = SettingsViewModel()
+    @StateObject private var viewModel = SettingsViewModel()
     
     // MARK: - Content
     

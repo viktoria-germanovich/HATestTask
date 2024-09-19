@@ -16,7 +16,7 @@ struct PhotoView: View {
     
     // MARK: - Constant
     
-    let imageSize = CGSize(width: 300, height: 300)
+    private let imageSize = CGSize(width: 300, height: 300)
     
     // MARK: - Private state
     
